@@ -13,7 +13,7 @@ const loadDishes = async () => {
         <h3>${item.description}</h3> 
         <p> ${item.name}</p>
         <p> ${item.prep_time} min</p>
-        <a href="/pages/recipe.html?id=${item.id}" class="recepie">Voir la recette</a>
+        <a href="pages/recipe.html?id=${item.id}" class="recepie">Voir la recette</a>
         <a href="#" class="cooked">Cuisiné</a>`;
   }
 };
